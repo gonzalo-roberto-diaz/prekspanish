@@ -1,0 +1,36 @@
+.footer-section {
+    padding: 57px 0px 63px 0px;
+    background: #1a1c1e;    
+    color: #e4e7df;
+}
+
+.footer-section h5 {
+  font-size: 22px;
+}
+
+.footer-section ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    list-style: none;
+}
+
+.footer section p {
+    text-align: justify;
+}
+
+.bottom-section {
+    padding: 30px 0 30px 0;
+    background: #1a1c1e;    
+    color: #e4e7df;
+}
+
+.fa:hover {
+  color: #6998c4;
+}
+
+.fa {
+  color: #e4e7df;
+}
