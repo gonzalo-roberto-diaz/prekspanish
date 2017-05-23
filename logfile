@@ -1,0 +1,8 @@
+LOG:  database system was shut down at 2017-05-20 17:00:55 PDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  role "root" does not exist
+FATAL:  role "root" does not exist
+FATAL:  role "root" does not exist
+FATAL:  role "root" does not exist
