@@ -3,38 +3,9 @@
     display: block;
 }
 
-.welcome-section{
-        height: 100%;
-        width: 100%;
-        order: 1;
-        flex-grow: 1;
-        font-size:50px; 
-        background-image:url(/assets/banner-girl-mother.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;    
-}
 
-.our-banner{
-    position: absolute;
-    right: 15%;
-    left: 15%;
-    font-size: 14px;
-    line-height: 1.428;
-}
 
-.our-banner h1 {
-    font-size: 44px;
-    color: #000060;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 950!important;
-}
 
-.our-banner p {
-    font-size: 16px;
-    color: #373737;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-}
 
 /deep/ .btn-danger {
     color: #fff;

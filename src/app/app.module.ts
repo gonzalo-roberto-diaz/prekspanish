@@ -12,6 +12,9 @@ import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 import { VideosComponent } from './videos/videos.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { WelcomeComponent } from './home/welcome/welcome.component';
+import { AboutMeComponent } from './home/about-me/about-me.component';
+import { OurLevelsComponent } from './home/our-levels/our-levels.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -28,7 +31,10 @@ const appRoutes: Routes = [
     HomeComponent,
     ResumeComponent,
     VideosComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    WelcomeComponent,
+    AboutMeComponent,
+    OurLevelsComponent
   ],
   imports: [
     BrowserModule,

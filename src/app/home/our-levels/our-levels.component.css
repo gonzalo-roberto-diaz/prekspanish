@@ -1,0 +1,34 @@
+.levels-section {
+    width: 100%;
+    height: 40%;
+    background-image:url(/assets/service-1.jpg);
+    padding: 100px 0px 100px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+}
+
+.our-levels h3 {
+    font-size: 40px;
+    color: #000062;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.levels-hr {
+    color: #000062;
+    background-color: #000062;
+    height: 2px;
+    width: 5%;
+    margin-bottom: 35px;
+    margin-left: 0;
+}
+
+.our-levels p {
+    color: #838383;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    width: 420px;
+    line-height: 25px;
+}

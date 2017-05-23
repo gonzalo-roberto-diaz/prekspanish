@@ -1,0 +1,41 @@
+.about-section {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.about-section h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #000062;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 55px;
+}
+
+.about-hr {
+    color: #000062;
+    background-color: #000062;
+    height: 2px;
+    width: 5%;
+    margin: 0 auto;
+}
+
+.about-section p {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #838383;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 60px;
+    /* padding-top: 46px; */
+}
