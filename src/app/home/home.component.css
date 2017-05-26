@@ -5,6 +5,13 @@
 
 
 
+/deep/ .short-middle-hr {
+    color: #000062;
+    background-color: #000062;
+    height: 2px;
+    width: 5%;
+    margin: 0 auto;
+}
 
 
 /deep/ .btn-danger {
@@ -19,3 +26,4 @@
     width: 154px;
     height: 53px;
 }
+

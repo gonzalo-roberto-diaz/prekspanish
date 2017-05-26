@@ -1,4 +1,5 @@
-.about-section {
+.make-happen-section {
+    height: 40%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
@@ -6,7 +7,7 @@
     background-color: #fff;
 }
 
-.about-section h2 {
+.make-happen-section h2 {
     font-size: 40px;
     text-align: center;
     padding-bottom: 25px;
@@ -17,8 +18,7 @@
 }
 
 
-
-.about-section p {
+.make-happen-section p {
     margin: 0 0 10px;
     text-align: center;
     color: #838383;
