@@ -1,7 +1,28 @@
 .menu-item {
-    width: 80px;
+    width: 90px;
     padding-top: 0.6em;
     text-align: center;
     height: 3em;
-    border: 1px solid greenyellow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.menu-separator {
+  height: 80%; 
+  align-self: center; 
+  width: 2px; 
+  background-color: #ddd; 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+color: #000062;
+}
+
+a:hover {
+    color: #679bcd;
 }

@@ -1,5 +1,5 @@
 
-    <div style="order: 1; flex-grow: 0; flex-shrink: 0; flex-basis: 15em;border: 1px solid red;">
+    <div style="order: 1; flex-grow: 0; flex-shrink: 0; flex-basis: 15em;">
             <a href="#">
                 <span style="font-family: SpumoniLP; font-size:2em">
                 <span style="padding-left:0;border-left:0;margin-left:0;color:#040664;">Pre-K</span>
@@ -8,8 +8,11 @@
             </a>
     </div>
     <div style="order: 2; display: flex; flex-flow: row nowrap">  
-      <div style="order: 1" class="menu-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/">Home</a></div>
-      <div style="order: 2" class="menu-item" routerLinkActive="active"><a routerLink="/resume">Resume</a></div>
-      <div style="order: 3" class="menu-item" routerLinkActive="active"><a routerLink="/videos">Videos</a></div>
-      <div style="order: 4" class="menu-item" routerLinkActive="active"><a routerLink="/articles">Articles</a></div>
+      <div  class="menu-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/">Home</a></div>
+      <div  class="menu-separator"></div>
+      <div  class="menu-item" routerLinkActive="active"><a routerLink="/resume">Resume</a></div>
+      <div  class="menu-separator"></div>
+      <div  class="menu-item" routerLinkActive="active"><a routerLink="/videos">Videos</a></div>
+      <div  class="menu-separator"></div>
+      <div  class="menu-item" routerLinkActive="active"><a routerLink="/articles">Articles</a></div>
     </div>
