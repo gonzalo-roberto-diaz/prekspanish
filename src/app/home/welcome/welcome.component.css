@@ -1,7 +1,7 @@
 .welcome-section{
         height: 30%;
-        width: 100%;
-        font-size:50px; 
+        /* width: 100%;
+        font-size:50px; */
         background-image:url(/assets/banner-girl-mother.jpg);
         background-size: 100%;
         background-repeat: no-repeat;    
@@ -15,12 +15,21 @@
     line-height: 1.428;
 }
 
+@media only screen and (max-width: 900px) {
+    [class*="our-banner"] {
+        top: 80%;
+    }
+}
+
 .our-banner h1 {
     font-size: 44px;
     color: #000060;
     font-family: 'Montserrat', sans-serif;
     font-weight: 950!important;
 }
+
+
+
 
 .our-banner p {
     font-size: 16px;

@@ -1,8 +1,27 @@
 .home-section{
-    height: 2000px;
+    height: 300vh;
     display: block;
 }
 
+/deep/ .h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #000062;
+}
+
+@media only screen and (max-width: 900px) {
+      .h2 {
+        font-size: 22px;
+        color: #000060;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+    }
+}
+
+/deep/ .block-div{
+    display: block;
+}
 
 
 /deep/ .short-middle-hr {

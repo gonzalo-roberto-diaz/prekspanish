@@ -15,6 +15,8 @@ import { ArticlesComponent } from './articles/articles.component';
 import { WelcomeComponent } from './home/welcome/welcome.component';
 import { AboutMeComponent } from './home/about-me/about-me.component';
 import { OurLevelsComponent } from './home/our-levels/our-levels.component';
+import { MakeHappenComponent } from './home/make-happen/make-happen.component';
+import { TestimonialComponent } from './home/testimonial/testimonial.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -34,7 +36,9 @@ const appRoutes: Routes = [
     ArticlesComponent,
     WelcomeComponent,
     AboutMeComponent,
-    OurLevelsComponent
+    OurLevelsComponent,
+    MakeHappenComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,

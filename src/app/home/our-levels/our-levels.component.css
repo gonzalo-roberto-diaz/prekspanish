@@ -7,12 +7,8 @@
     background-repeat: no-repeat;  
 }
 
-.our-levels h3 {
-    font-size: 40px;
-    color: #000062;
+.our-levels h2 {
     margin-bottom: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
 }
 
 .levels-hr {

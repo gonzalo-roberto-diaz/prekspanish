@@ -1,8 +1,14 @@
-.footer-section {
+.footer-section-header {
+    height: 50px;
+    padding-top: 0.5em;
+    padding-left: 0.3em;
+}
+
+/*.footer-section {
     padding: 57px 0px 63px 0px;
     background: #1a1c1e;    
     color: #e4e7df;
-}
+}*/
 
 .footer-section h5 {
   font-size: 22px;

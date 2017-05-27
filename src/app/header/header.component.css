@@ -1,0 +1,7 @@
+.menu-item {
+    width: 80px;
+    padding-top: 0.6em;
+    text-align: center;
+    height: 3em;
+    border: 1px solid greenyellow;
+}

@@ -1,0 +1,1220 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+   @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+	 border-top: none!important;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.header-section {
+	height: 95px;
+	border-bottom: 2px solid #f5f5f5;
+}
+
+.logo {
+	padding-bottom: 10px;
+	/*padding-top: 10px;*/
+	/*margin-top: -25px;*/
+	margin-left: 51px;
+}
+
+.navbar-default {
+	border-color: #fff !important;
+	margin-bottom: 0px;
+}
+
+#left {
+	/*overflow: hidden;*/
+	/* padding-top: 10px; */
+	/* margin-top: 20px; */
+	/*margin-bottom: -69px;*/
+	margin-top: 38px;
+	margin-left: 370px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:400;
+}
+
+/*.fa.fa-volume-control-phone.my-phon {
+	font-size: 20px;
+	margin-top: -20px;
+	color: #fff;
+	background: #f13338;
+	padding: 5px;
+	border-radius: 20px;
+}*/
+
+.container-fluid {
+	/*padding-bottom: 40px;*/
+}
+
+.banner-section {
+	/* background: url(../img/banner-1.jpg) no-repeat; */
+	/* padding-bottom: 123px; */
+	/* padding-top: 125px; */
+	height: 650px;
+}
+	
+.our-banner h1{
+	font-size: 44px;
+	color:#000060;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700!important;
+	}
+
+.our-banner p {
+	font-size: 16px;
+	color: #373737;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+	
+.btn-danger {
+	color: #fff;
+	background-color: #f13338;
+	border-color: #f13338;
+	border-radius: 39px;
+	font-size: 14px;
+	margin-top: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	width: 154px;
+	height: 53px;
+}
+
+.about-section h2 {
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 25px;
+	color: #000062;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	padding-top: 55px;
+}
+
+.about-hr{
+	color: #000062; 
+	background-color: #000062; 
+	height: 2px; 
+	width: 5%; 
+	margin: 0 auto;
+}
+
+.about-section p {
+	margin: 0 0 10px;
+	text-align: center;
+	color: #838383;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size:15px;
+	line-height: 16px;
+}
+
+.button {
+	text-align: center;
+	padding-bottom: 60px;
+	/*padding-top: 46px;*/
+}
+
+.btn-warning {
+	color: #fff;
+	background-color: #f13338;
+	border-color: #f13338;
+	padding: 15px 30px 15px 30px;
+	border-radius: 23px;
+}
+
+
+	
+.our-levels h3{
+	font-size: 40px;
+	color: #000062;
+	margin-bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	}
+	
+.our-levels p{
+	color: #838383;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size:15px;
+	width: 420px;
+	line-height: 25px;
+	}
+	
+.levels-hr{
+	color: #000062; 
+	background-color: #000062; 
+	height: 2px; 
+	width: 5%; 
+	margin-bottom: 35px;
+	margin-left:0;
+}
+	
+.our-levels ul {
+	list-style:none;
+	margin-top: 0;
+	padding: 0;
+	color: #838383;
+}
+
+.our-levels ul li {
+	padding-left: 1em; 
+  	text-indent: -.7em;
+	padding-bottom: 5px;
+}
+
+.our-levels ul li::before {
+	content: "• ";
+ 	color: #679bcd; /* or whatever color you prefer */
+	padding-right: 8px;
+}
+
+.course-secton{
+	padding:0px 0px 55px 0px;
+	}
+	
+.our-course h2 {
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 70px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.our-course img {
+	border: 0;
+	padding-bottom: 27px;
+	padding-top: 30px;
+}
+
+.our-course p{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size:22px;
+	color:#202020;
+}
+
+
+	
+.menimg {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.menimg img {
+	padding-bottom: 30px;
+}
+	
+.menimg p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 60px;
+	color:#fffefe;
+}
+
+.member{
+	font-family: 'Open Sans', sans-serif!important;
+	font-weight: normal!important;
+	font-size:22px!important;
+	color:#fffefe!important;
+	margin-top: -25px !important;
+}
+
+	
+	
+.our-somefats h2 {
+	font-size: 42px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.our-somefats p{
+	font-size:60px;
+	color:#fff;
+	text-align:center;
+	margin-top: 0px;
+	}
+
+.form-group ul{
+	margin-top: 0;
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.form-group li{
+	float:left;
+	list-style:none;
+	}
+	
+.make-section{
+	padding-top:70px;
+	padding-bottom:63px;
+	}
+	
+.our-make h2 {
+	font-size: 40px;
+	color: #000062;
+	text-align: center;
+	padding-bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.our-make p{
+	margin: 0 0 10px;
+	text-align: center;
+	font-size: 15px;
+	color: #838383;
+	padding-bottom: 47px;
+	font-family: 'Open Sans', sans-serif!important;
+	font-weight: normal!important;
+	padding-left: 79px;
+	padding-right: 84px;
+}
+
+.form-group ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+	list-style: none;
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+.form-control {
+	
+	/* border-radius: 56px; */
+	border: none;
+	color: #cbcbcb;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal !important;
+	width: 180px;
+	margin-left: 12px;
+}
+
+.form-group li {
+	float: left;
+	list-style: none;
+	border: 1px solid #e9e9e9;
+	border-radius: 50px;
+	margin-right: 8px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 6px;
+}
+
+.name, .email {
+	width: 213px;
+	height: 50px;
+}
+
+.ph{
+	width: 220px;
+	height: 50px;	
+}
+
+.topic{
+	width: 210px;
+	height: 50px;	
+}
+
+.submit_btn{
+	width: 204px;
+	height: 50px;	
+	background:#F90E12;
+	cursor:pointer;
+	color: #fff;
+	padding-top: 15px !important;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif!important;
+	font-weight: normal!important;
+}
+
+
+
+	
+.our-video{
+	background:url(/assets/build-1.png) no-repeat;
+	padding-bottom:80px;
+	height:685px;
+	}
+	
+.our-video h2 {
+	font-size: 42px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	padding-top: 68px;
+	line-height: 45px;
+}
+	
+.myvideo{
+	text-align: center;
+	padding-bottom:30px;
+	}
+	
+.our-video p{
+	text-align:center;
+	}
+
+	
+.btn-success {
+	color: #fff;
+	background-color: #f13338;
+	border-color: #f13338;
+	border-radius: 28px;
+	padding: 15px 37px;
+	font-size: 15px;
+}
+
+.service{
+	background:url(/assets/edukation-1.png) no-repeat;
+	height:685px;
+	}
+	
+.service h2 {
+	font-size: 42px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	color: #000062;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	line-height: 45px;
+}
+
+.service p{
+	margin: 0 0 10px;
+	text-align: center;
+	padding-left: 58px;
+	padding-right: 80px;
+
+}
+
+.donce {
+	background: url(/assets/quote_bg.png) no-repeat;
+	color: #fff;
+	height: 236;
+	padding-top: 50px;
+	padding-bottom: 27px;
+	width: 554px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal !important;
+	line-height: 30px;
+}
+
+.fa {
+	font-size: 40px;
+	padding-left: 25px;
+	padding-right: 15px;
+	margin-top: 10px;
+}
+
+.fa-quote-right {
+	float: right;
+	margin-right: 50px;
+	margin-top: 0px;
+}
+
+.ileft{
+	padding-top:10px;
+	padding-left: 0px;
+	}
+
+.news-section {
+	padding-top: 58px;
+	padding-bottom: 55px;
+}
+
+/*.most1 {
+	overflow: hidden;
+	padding-right: 30px;
+	margin-bottom: 27px;
+}
+
+.most1 h4{
+	float:right;
+}
+
+.most1 p{
+	float:right;
+}*/
+
+.our-news h2 {
+	text-align: center;
+	padding-bottom: 25px;
+	color: #000062;
+	font-size: 40px;
+	padding-top: 675px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 700!important;
+}
+	
+.teaching h3 {
+	font-size: 24px;
+	margin-top: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.teaching p{
+	margin: 0 0 10px;
+	margin-top:8px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	color: #838383;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+	text-align:justify;
+}
+
+.moretea {
+	color: #fff;
+	background-color: #f13338;
+	border-color: #f13338;
+	border-radius: 39px;
+	font-size: 16px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 25px;
+	padding-right: 26px;
+	margin-top: -3px;
+}
+
+.most1 {
+	margin-bottom: 30px;
+}
+	
+.article{
+    float: left;
+    margin: 0px 30px 27px 0px;
+}
+
+.artice-header{
+	font-weight:bolder; 
+	font-weight:bold; 
+	font-size: 24px; 
+	line-height:20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.article-admin{
+	font-size:14px; 
+	font-style:italic;
+	padding-bottom: 20px;
+	line-height:30px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+	color: #bfbfbf;
+}
+	
+.subscribe {
+	background:url(/assets/frem.png) no-repeat;
+	padding: 60px 0px 65px 0px;
+}
+
+.subscribe h3 {
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.subscribe p {
+	margin: 0 0 10px;
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 43px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+}
+
+.btn-default {
+	color: #b8b8b8;
+	background-color: #fff;
+	border-color: #fff;
+	padding: 16px 78px;
+	border-radius: 40px;
+	margin-left: 50px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #000;
+	border-color: #000;
+	padding: 16px 33px;
+	border-radius: 23px;
+	margin-left: 119px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.question-section {
+	background: #000062;
+}
+
+.our-question {
+	background: #000062;
+	padding-bottom:30px;
+	padding-top:30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.got img{
+	color:#fff;
+	}
+	
+.got h4{
+	float:right;
+	font-size:40px;
+	color:#fff;
+	margin-right: 128px;
+	font-weight: 700;
+	}
+	
+.got p {
+	margin: 0 0 10px;
+	font-size: 15px;
+	float: right;
+	color:#fff;
+	margin-top: -20px;
+	padding-left: 104px;
+}
+
+.btn.btn-default.tuch {
+	text-transform: uppercase;
+	padding: 16px 43px;
+	background: #f13338;
+	border: 1px solid #f13338;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 136px;
+	margin-top: 20px;
+}
+	
+.adders-section{
+	padding:55px 0px 23px 0px;
+	}
+	
+.adders-section h2{
+	text-align:center;
+	padding-bottom:46px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	}
+	
+.our-adders ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding-left: 184px;
+	
+}
+	
+.our-adders li {
+	list-style: none;
+	float: left;
+	color:#8d8d8d;
+	font-size:15px;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.our-icon {
+	font-size: 28px;
+}
+
+.footer-section {
+	padding: 57px 0px 63px 0px;
+	background:#1a1c1e;
+}
+
+.prestye{
+	background:#000;
+	color:#fff;
+	font-size:30px;
+	}
+
+.our-footer h5 {
+	font-size: 22px;
+	color: #fff;
+}
+
+.quick{
+	padding-left:85px;
+	}
+
+
+.our-footer ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+	list-style: none;
+	padding-left: 0px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+}
+
+.our-footer p {
+	margin: 0 0 10px;
+	color: #fff;
+	font-size: 14px;
+	padding-top:15px;
+	padding-right:20px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+}
+
+.sosal-section{
+	background:#1a1c1e;
+	padding:30px 0px 30px 0px;
+	}
+	
+.sosal-left p{
+	margin: 0 0 10px;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+}
+
+.sosal-right{
+	float: right;
+	padding-right: 73px;
+}
+	
+
+.sosal-right i{
+	font-size:20px;
+	padding: 5px;
+}
+
+.navbar-default {
+	background-color: #fff!important;
+}
+
+.navbar-brand {
+	 padding: 0px!important; 
+}
+
+.navbar-default {
+	 background-color: #ffffff!important; 
+}
+
+.navbar-nav > li > a {
+	 padding-top: 0px!important; 
+	 padding-bottom: 0px!important; 
+}
+
+.con_no{
+	margin-top: -6px;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 600; 
+}
+
+
+.nav > li > a {
+	padding: 0px 30px!important;
+}
+
+.nav > li > a {
+    border-right: 2px solid #767676;
+    display: block;
+}
+.nav > li:last-child > a {
+    border-right: 0;
+}
+
+.nav > li:nth-last-child(2) > a {
+    border-right: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #767676;
+}
+
+/*.active{
+	 border-bottom: 2px solid #00015e;
+	 display: block;
+}
+*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	 color: #767676!important; 
+	 background-color: transparent!important;
+	 margin-bottom: 5px !important;
+}
+
+.carousel-caption {
+	 text-align: left!important; 
+	 text-shadow: none!important;
+}
+
+.carousel-caption {
+	right: 20%;
+	left: 16%;
+	padding-bottom: 106px;
+}
+
+.counter{
+	color: #3d3d8f; 
+	background-color: #3d3d8f; 
+	height: 1px; 
+	width: 64px; 
+	margin: 0 auto;
+}
+
+.some-facts{
+	color: #ffffff; 
+	background-color: #ffffff; 
+	height: 2px; 
+	width: 60px; 
+	margin: 0 auto;
+}
+
+select {
+	text-transform: none;
+	border: none;
+	width: 177px;
+	color: #cbcbcb;
+	margin-right: 13px;
+	margin-top: 8px;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #cbcbcb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #cbcbcb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #cbcbcb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #cbcbcb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+input {
+	line-height: normal;
+	border: none;
+	padding-top: 6px;
+	color: #cbcbcb;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	margin-left: 20px;
+	width: 170px;
+}
+
+select {
+  	width: 86%;
+    background: url(/assets/arrow-icon.png) no-repeat right #fff;
+	-webkit-appearance: none; 
+}
+
+.testimonial-section{
+	background: url(/assets/edukation-1.png) no-repeat right;
+}
+
+#our-testimonial{
+	padding-left:0;
+	padding-right:0;
+    width: 50%;
+}
+
+.video-line{
+	color: #ffffff; 
+	background-color: #ffffff; 
+	height: 2px; 
+	width: 64px; 
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.service-line{
+	color: #000062; 
+	background-color: #000062; 
+	height: 2px; 
+	width: 64px; 
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.quote-avatar{
+	text-align: center;
+	padding-right: 60px;
+}
+
+.news-line{
+	color: #000062; 
+	background-color: #000062; 
+	height: 2px; 
+	width: 64px; 
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.owl-carousel .owl-item img {
+	/*display: block;*/
+	/*width: 0 !important;*/
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	/*margin-left: 164px;*/
+}
+
+.owl-carousel .owl-item img {
+	width: 15% !important;
+}
+
+.quote_txt_author{
+	text-align: center;
+	color: #202020;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 11px;
+}
+
+.quote_txt_designation{
+	text-align: center;	
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-style:italic; 
+	color:#838383; 
+	font-size:14px;
+	line-height: 0px!important;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+	margin-top: -12px!important;
+	margin-left: -73px!important;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	margin-right: -10px;
+	display: none;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	margin-left: -10px;
+	display: none;
+}
+
+.carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	background-color: #fff;
+	display: none;
+}
+
+.sosal-right a {
+	color: #333 !important;
+}
+
+.fa-facebook:hover{
+	color: #3b5998!important;
+}
+
+.fa-twitter:hover{
+	color: #0084b4!important;
+}
+
+.fa-linkedin:hover{
+	color: #0077B5!important;
+}
+
+.fa-youtube:hover{
+	color: #e52d27!important;
+}
+
+.fa-google-plus:hover{
+	color:  #d34836!important;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

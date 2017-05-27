@@ -1,0 +1,14 @@
+/deep/ .celeste{
+    color:#679bcd;
+}
+
+/deep/ .azul {
+    color: #000062;
+}
+
+.contenedor{
+    display: flex; flex-flow: column nowrap; border: 1px solid red; 
+    justify-content: flex-start;
+    align-items: space-around;
+    min-height: 100vh;
+}

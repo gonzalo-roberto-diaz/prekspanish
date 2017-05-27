@@ -4,3 +4,9 @@
     src: url('/assets/SpumoniLP.ttf');
 }
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
