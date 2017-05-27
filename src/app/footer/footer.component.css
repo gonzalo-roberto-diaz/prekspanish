@@ -1,31 +1,33 @@
 .footer-section-header {
     height: 50px;
-    padding-top: 0.5em;
+    padding-top: 2em;
     padding-left: 0.3em;
+    vertical-align: bottom;
 }
 
-/*.footer-section {
-    padding: 57px 0px 63px 0px;
+.pie {
     background: #1a1c1e;    
     color: #e4e7df;
-}*/
+    padding: 7%;
+}
 
-.footer-section h5 {
+.pie h5 {
   font-size: 22px;
   height: 30px;
 }
 
-.footer-section ul {
+.pie ul {
     margin-left: 0;
     padding-left: 0;
 }
 
-.footer-section ul li {
+.pie ul li {
     list-style: none;
 }
 
-.footer section p {
+.pie p {
     text-align: justify;
+    width: 90%;
 }
 
 .bottom-section {
@@ -40,4 +42,12 @@
 
 .fa {
   color: #e4e7df;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: #e4e7df;
 }
