@@ -4,24 +4,25 @@
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
+    text-align: center;
+    padding-right: 7%;
+    padding-left: 7%;
 }
 
 .about-section h2 {
+    font-size: calc( 1em +  1.5vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #000062;
     text-align: center;
-    padding-bottom: 25px;
-    padding-top: 55px;
 }
 
 
-
 .about-section p {
-    margin: 0 0 10px;
-    text-align: center;
-    color: #838383;
-    font-family: 'Open Sans', sans-serif;
+    font-size: calc( .5em +  .7vw);
+    color: #373737;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 16px;
 }
 
 .button {
