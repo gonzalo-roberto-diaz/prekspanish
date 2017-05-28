@@ -6,7 +6,6 @@
 }
 
 .header22 {
-    order: 1;
     height: 10px;
     flex-grow: 0;
     flex-basis: 80px;
@@ -14,10 +13,8 @@
 }
 
 .detail22 {
-    order: 2;
     flex-grow: 0.5;
-    border: 5px solid blue;
-    flex-basis: 580px;
+    flex-basis: 470px;
 }
 
 .detail22 p {
@@ -28,13 +25,20 @@
 
 .foto-mariana-resume {
     float: left;
-    border: 1px dotted gray;
     padding: 20px 20px 20px 0px;
 }
 
-.education22 {
-    order: 3;
-    padding: 10%;
-    flex-grow: 0.5;
-    border: 1px solid green;
+/* Centra la imagen cuando la pantalla es demasiado angosta (celular) */
+@media screen and (max-width: 400px) {
+    .foto-mariana-resume {
+            padding: 20px 10px 20px 20px;
+    }
+}
+
+
+.section-separator {
+  width: 50%; 
+  align-self: center; 
+  height: 2px; 
+  background-color: #ddd; 
 }
