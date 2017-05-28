@@ -1,0 +1,40 @@
+/deep/ .h2 {
+    font-size: 2.3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #000062;
+}
+
+.header22 {
+    order: 1;
+    height: 10px;
+    flex-grow: 0;
+    flex-basis: 80px;
+    text-align: center;
+}
+
+.detail22 {
+    order: 2;
+    flex-grow: 0.5;
+    border: 5px solid blue;
+    flex-basis: 580px;
+}
+
+.detail22 p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.foto-mariana-resume {
+    float: left;
+    border: 1px dotted gray;
+    padding: 20px 20px 20px 0px;
+}
+
+.education22 {
+    order: 3;
+    padding: 10%;
+    flex-grow: 0.5;
+    border: 1px solid green;
+}
