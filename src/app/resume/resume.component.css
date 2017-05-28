@@ -5,13 +5,6 @@
     color: #000062;
 }
 
-.header22 {
-    height: 10px;
-    flex-grow: 0;
-    flex-basis: 80px;
-    text-align: center;
-}
-
 .detail22 {
     flex-grow: 0.5;
     flex-basis: 470px;

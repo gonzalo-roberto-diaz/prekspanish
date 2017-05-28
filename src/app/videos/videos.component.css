@@ -1,0 +1,50 @@
+.video-item{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-grow: 0;
+    margin: 3px;
+}
+
+.section-separator {
+    width: 100%;
+}
+
+/** cuando se estrecha demasiado la pantalla, sacar el padding para que quepa el iframe del video*/
+@media screen and (max-width: 400px) {
+    .page-container {
+            padding-left: 0;
+            padding-right: 0;
+    }
+    .video-item{
+            padding-left: 0;
+            padding-right: 0;
+    }
+    .inner-header {
+        height: 110px;
+    }
+
+}
+
+.video-card{
+    display: flex; 
+    flex-flow: column nowrap;
+    flex-basis: 300px;
+    padding-left: 20px;
+    flex-grow: 1
+}
+
+.video-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+
+.video-card p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8em;
+    text-align: justify;
+}
