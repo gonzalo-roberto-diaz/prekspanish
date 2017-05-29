@@ -1,13 +1,8 @@
 
-    <div style="order: 1; flex-grow: 0; flex-shrink: 0; flex-basis: 15em;">
-            <a href="#">
-                <span style="font-family: SpumoniLP; font-size:2em">
-                <span style="padding-left:0;border-left:0;margin-left:0;color:#040664;">Pre-K</span>
-                <span style="padding-right:0;border-right:0;margin-right:0;color:#6998c4;">Spanish</span>
-                </span>
-            </a>
-    </div>
-    <div style="order: 2; display: flex; flex-flow: row nowrap">  
+    <div style="order: 1; flex: 0 0 8em;border: 1px solid gray; display: flex; flex-flow: column; justify-content: center">
+     <img src="/assets/icono-cubo-horizontal.jpg" style="border: 1px solid blue; height: 3.7em; ">
+    </div> 
+    <div style="order: 2; display: flex; flex-flow: row nowrap;flex: 1; border: 1px solid orange;">  
       <div  class="menu-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/">Home</a></div>
       <div  class="menu-separator"></div>
       <div  class="menu-item" routerLinkActive="active"><a routerLink="/resume">Resume</a></div>

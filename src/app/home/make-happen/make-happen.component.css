@@ -1,32 +1,27 @@
-.make-happen-section {
-    height: 15%;
+.about-section {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
-    border: 1px solid green;
+    text-align: center;
+    padding-right: 7%;
+    padding-left: 7%;
 }
 
-.make-happen-section h2 {
-    font-size: 40px;
-    text-align: center;
-    padding-bottom: 25px;
-    color: #000062;
+.about-section h2 {
+    font-size: calc( 1em +  1.5vw);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding-top: 55px;
+    font-weight: 900;
+    color: #000062;
+    text-align: center;
 }
 
 
-.make-happen-section p {
-    margin: 0 0 10px;
-    text-align: center;
-    color: #838383;
-    font-family: 'Open Sans', sans-serif;
+.about-section p {
+    color: #373737;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 16px;
 }
 
 .button {
