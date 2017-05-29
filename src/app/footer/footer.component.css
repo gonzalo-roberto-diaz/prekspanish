@@ -52,3 +52,10 @@ a:link {
 a {
     color: #e4e7df;
 }
+
+.rectangular-icon-prekspanish{
+  display: flex;
+  flex-flow: column nowrap;
+  float: left;
+  height: 100%;
+}
