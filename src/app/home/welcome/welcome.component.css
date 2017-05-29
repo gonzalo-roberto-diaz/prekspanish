@@ -3,6 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #000062;
+    line-height: calc( 0.8em +  1.3vw);
 }
 
 .welcome-section{
@@ -12,6 +13,24 @@
         background-size: 100%;
         background-repeat: no-repeat;    
 }
+
+
+@media screen and (min-width: 800px){
+    .invisible-above-800px { display: none; }
+}
+
+@media screen and (min-width: 600px){
+    .invisible-above-600px { display: none; }
+}
+
+@media screen and (max-width: 600px){
+    .invisible-below-600px { display: none; }
+}
+
+@media screen and (max-width: 550px){
+    .invisible-below-550px { display: none; }
+}
+
 
 .our-banner{
     position: absolute;

@@ -57,3 +57,19 @@
     width: 154px;
     height: 53px;
 }
+
+/deep/ @media screen and (min-width: 800px){
+    .invisible-above-800px { display: none; }
+}
+
+/deep/ @media screen and (min-width: 600px){
+    .invisible-above-600px { display: none; }
+}
+
+/deep/ @media screen and (max-width: 600px){
+    .invisible-below-600px { display: none; }
+}
+
+/deep/ @media screen and (max-width: 550px){
+    .invisible-below-550px { display: none; }
+}

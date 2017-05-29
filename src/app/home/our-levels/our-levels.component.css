@@ -4,9 +4,14 @@
     background-image:url(/assets/service-faded.jpg);
     background-size: 100%;
     background-repeat: no-repeat;  
-    padding-right: 7%;
-    padding-left: 7%;
-    padding-top: 3%;
+}
+
+.our-levels{
+    position: absolute;
+    right: 7%;
+    left: 7%;
+    line-height: calc( .8em +  1.3vw);
+    width: 40%;
 }
 
 .our-levels h2 {
