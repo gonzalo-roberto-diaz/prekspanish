@@ -11,7 +11,7 @@
 }
 
 .menu-item {
-    flex: 1 0 80px;
+    flex: 1 0 2em;
     padding-top: 1.1em;
     text-align: center;
     height: 3em;
