@@ -16,15 +16,20 @@
     text-align: justify;
 }
 
-.foto-mariana-resume {
-    float: left;
-    padding: 20px 20px 20px 0px;
+.foto-mariana-resume{
+  display: flex;
+  flex-flow: column nowrap;
+  float: left;
+  width: 20em;
+  padding-right: 1em;
+  padding-bottom: 1em;
 }
 
-/* Centra la imagen cuando la pantalla es demasiado angosta (celular) */
-@media screen and (max-width: 400px) {
+/** when all text wraps below, discard right padding*/
+@media screen and (max-width: 515px) {
     .foto-mariana-resume {
-            padding: 20px 10px 20px 20px;
+        padding-right: 0;
+        width: 100%;
     }
 }
 
