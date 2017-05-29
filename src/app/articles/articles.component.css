@@ -1,11 +1,13 @@
 .article-item{
-    display: flex;
-    flex-flow: row wrap;
+    display: inline-block;
     padding: 5px;
     justify-content: flex-start;
     align-content: flex-start;
     margin: 3px;
     flex: 1 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8em;
+    text-align: justify;
 }
 
 .article-item-image{
@@ -13,7 +15,16 @@
   flex-flow: column nowrap;
   float: left;
   width: 20em;
-  border: 1px solid aquamarine;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+/** when all text wraps below, discard right padding*/
+@media screen and (max-width: 515px) {
+    .article-item-image {
+        padding-right: 0;
+        width: 100%;
+    }
 }
 
 .section-separator {
@@ -36,12 +47,10 @@
 
 }
 
-.article-card{
-    display: flex; 
-    flex-flow: column nowrap;
-    padding-left: 20px;
-    min-width: 300px;
-    flex: 1 1 300px;
+.button-container {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .article-title{
@@ -49,12 +58,7 @@
     font-size: 1.5em;
     font-weight: 900;
     margin-bottom: 1%;
-}
-
-.article-card p {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.8em;
-    text-align: justify;
+    text-align: center;
 }
 
 /deep/ h3 {
