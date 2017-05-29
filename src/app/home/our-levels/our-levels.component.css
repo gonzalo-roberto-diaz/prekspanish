@@ -19,6 +19,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #000062;
+    margin-top: 2vw;
 }
 
 .levels-hr {
@@ -34,6 +35,11 @@
     color: #373737;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+}
+
+.our-levels ul{
+    list-style-position: inside;
+    padding-left:0;
 }
 
 .our-levels ul li {
