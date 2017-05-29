@@ -10,7 +10,6 @@
     display: flex; 
     margin: auto;
     flex-flow: column nowrap; 
-    border: 2px solid red; 
     justify-content: flex-start;
     align-items: space-around;
     min-height: 100vh;
@@ -25,7 +24,6 @@
     justify-content: flex-start; 
     padding-left: 10%; 
     padding-right: 10%;
-    border: 3px solid orange;
 }
 
 /deep/  .inner-header {
