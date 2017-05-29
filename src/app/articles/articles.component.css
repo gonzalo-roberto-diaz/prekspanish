@@ -76,15 +76,3 @@
     line-height: 1.8em;
     text-align: justify;
 }
-
-/deep/ .foto-article-topleft {
-    float: left;
-    padding: 20px 20px 20px 0px;
-}
-
-/* Centra la imagen cuando la pantalla es demasiado angosta (celular) */
-/deep/ @media screen and (max-width: 400px) {
-    .foto-article-topleft {
-            padding: 20px 10px 20px 20px;
-    }
-}

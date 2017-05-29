@@ -1,18 +1,22 @@
 .icono-horizontal-home {
-    order: 1;
-    flex: 0 0 24.5em;
-    height: 7em;
-    width: 100%;
-    background-image:url(/assets/icono-cubo-horizontal.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    border: 1px solid saddlebrown;
-    background-color: orange;
+  order: 1; 
+  flex: 0 0 18em;
+  display: flex; 
+  flex-flow: column; 
+  justify-content: center;
+}
+
+/* Centra el ícono de header imagen cuando la pantalla es demasiado angosta (celular) */
+@media screen and (max-width: 510px) {
+    .icono-horizontal-home {
+        flex: 1 100%;
+        align-self: stretch;
+    }
 }
 
 .menu-item {
     flex: 1 0 2em;
-    padding-top: 1.1em;
+    padding-top: 1.8em;
     text-align: center;
     height: 3em;
     font-family: 'Montserrat', sans-serif;
