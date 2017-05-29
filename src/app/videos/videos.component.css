@@ -4,8 +4,8 @@
     padding: 5px;
     justify-content: flex-start;
     align-content: flex-start;
-    flex-grow: 0;
     margin: 3px;
+    flex: 1 0 auto;
 }
 
 .section-separator {
@@ -31,9 +31,9 @@
 .video-card{
     display: flex; 
     flex-flow: column nowrap;
-    flex-basis: 300px;
     padding-left: 20px;
-    flex-grow: 1
+    min-width: 300px;
+    flex: 1 1 300px;
 }
 
 .video-title{

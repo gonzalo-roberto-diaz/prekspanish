@@ -17,12 +17,18 @@ import { AboutMeComponent } from './home/about-me/about-me.component';
 import { OurLevelsComponent } from './home/our-levels/our-levels.component';
 import { MakeHappenComponent } from './home/make-happen/make-happen.component';
 import { TestimonialComponent } from './home/testimonial/testimonial.component';
+import { TeachingTechniquesComponent } from './articles/teaching-techniques/teaching-techniques.component';
+import { CommonQuestionsComponent } from './articles/common-questions/common-questions.component';
+import { SchoolExperiencesComponent } from './articles/school-experiences/school-experiences.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'videos', component: VideosComponent },
   { path: 'articles', component: ArticlesComponent },
+  { path: 'articles/teaching-techniques', component: TeachingTechniquesComponent },
+  { path: 'articles/common-questions', component: CommonQuestionsComponent },
+  { path: 'articles/high-school-experiences', component: SchoolExperiencesComponent },
 ];
 
 @NgModule({
@@ -38,7 +44,10 @@ const appRoutes: Routes = [
     AboutMeComponent,
     OurLevelsComponent,
     MakeHappenComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    TeachingTechniquesComponent,
+    CommonQuestionsComponent,
+    SchoolExperiencesComponent
   ],
   imports: [
     BrowserModule,

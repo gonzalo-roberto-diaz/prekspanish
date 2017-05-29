@@ -1,0 +1,73 @@
+.article-item{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 3px;
+    flex: 1 0 auto;
+}
+
+.section-separator {
+    width: 100%;
+}
+
+/** cuando se estrecha demasiado la pantalla, sacar el padding para que quepa el iframe del video*/
+@media screen and (max-width: 400px) {
+    .page-container {
+            padding-left: 0;
+            padding-right: 0;
+    }
+    .article-item{
+            padding-left: 0;
+            padding-right: 0;
+    }
+    .inner-header {
+        height: 110px;
+    }
+
+}
+
+.article-card{
+    display: flex; 
+    flex-flow: column nowrap;
+    padding-left: 20px;
+    min-width: 300px;
+    flex: 1 1 300px;
+}
+
+.article-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+
+.article-card p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.detail22 {
+    flex-grow: 0.5;
+    flex-basis: 470px;
+}
+
+.detail22 p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+/deep/ .foto-article-topleft {
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+
+/* Centra la imagen cuando la pantalla es demasiado angosta (celular) */
+/deep/ @media screen and (max-width: 400px) {
+    .foto-article-topleft {
+            padding: 20px 10px 20px 20px;
+    }
+}
