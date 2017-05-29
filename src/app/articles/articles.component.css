@@ -8,6 +8,14 @@
     flex: 1 0 auto;
 }
 
+.article-item-image{
+  display: flex;
+  flex-flow: column nowrap;
+  float: left;
+  width: 20em;
+  border: 1px solid aquamarine;
+}
+
 .section-separator {
     width: 100%;
 }
@@ -56,6 +64,7 @@
 /deep/ .detail22 {
     flex-grow: 0.5;
     flex-basis: 470px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /deep/ .detail22 p {
