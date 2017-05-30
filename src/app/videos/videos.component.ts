@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideosComponent implements OnInit {
 
-  constructor() { }
+  videos = new Map<string, boolean>();
+
+  constructor() { 
+  }
+
+  onImageClicked(videoImage: HTMLDivElement){
+    var videoId = videoImage.getAttribute('data-videoid');
+    var newHtml =  '<iframe width="100%" height="100%" src="https://www.youtube\.com/embed/' + videoId + '">';
+    videoImage.innerHTML = newHtml;
+  }
 
   ngOnInit() {
   }
