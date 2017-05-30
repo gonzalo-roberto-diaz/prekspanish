@@ -67,6 +67,12 @@
     .invisible-below-600px { display: none; }
 }
 
+ .invisible-below-550px { 
+     visibility: visible;
+ }
+
 /deep/ @media screen and (max-width: 550px){
-    .invisible-below-550px { display: none; }
+    .invisible-below-550px { 
+        visibility: hidden; 
+    }
 }
