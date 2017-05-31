@@ -16,7 +16,6 @@ import { WelcomeComponent } from './home/welcome/welcome.component';
 import { AboutMeComponent } from './home/about-me/about-me.component';
 import { OurLevelsComponent } from './home/our-levels/our-levels.component';
 import { MakeHappenComponent } from './home/make-happen/make-happen.component';
-import { TestimonialComponent } from './home/testimonial/testimonial.component';
 import { TeachingTechniquesComponent } from './articles/teaching-techniques/teaching-techniques.component';
 import { CommonQuestionsComponent } from './articles/common-questions/common-questions.component';
 import { SchoolExperiencesComponent } from './articles/school-experiences/school-experiences.component';
@@ -44,7 +43,6 @@ const appRoutes: Routes = [
     AboutMeComponent,
     OurLevelsComponent,
     MakeHappenComponent,
-    TestimonialComponent,
     TeachingTechniquesComponent,
     CommonQuestionsComponent,
     SchoolExperiencesComponent
