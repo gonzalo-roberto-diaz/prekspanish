@@ -67,7 +67,7 @@
     .invisible-below-600px { display: none; }
 }
 
- .invisible-below-550px { 
+/deep/ .invisible-below-550px { 
      visibility: visible;
  }
 

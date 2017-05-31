@@ -49,3 +49,12 @@
     font-weight: normal;
 }
 
+.invisible-below-550px { 
+     visibility: visible;
+ }
+
+@media screen and (max-width: 550px){
+    .invisible-below-550px { 
+        visibility: hidden; 
+    }
+}
