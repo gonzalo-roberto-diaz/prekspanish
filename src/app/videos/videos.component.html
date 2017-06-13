@@ -5,25 +5,5 @@
   <div style="order: 2; display: flex; flex-flow: column nowrap; justify-content:flex-start; 
     flex: 1 0; margin-left: 2%; margin-right: 2% ">
     
-    <app-video-item [item]="videoItems[0]"></app-video-item>
-    <br/>
-    <div class="section-separator"></div>
-    <br/>
-    <app-video-item [item]="videoItems[1]"></app-video-item>
-    <br/>
-    <div class="section-separator"></div>
-    <br/>
-    <app-video-item [item]="videoItems[2]"></app-video-item>    
-    <br/>
-    <div class="section-separator"></div>
-    <br/>
-    <app-video-item [item]="videoItems[3]"></app-video-item>        
-    <br/>
-    <div class="section-separator"></div>
-    <br/>
-    <app-video-item [item]="videoItems[4]"></app-video-item>      
-    <br/>
-    <div class="section-separator"></div>
-    <br/>
-    <app-video-item [item]="videoItems[5]"></app-video-item>          
+    <app-video-item *ngFor="let videoItem of videoItems" [item]="videoItem"></app-video-item>
 </div>

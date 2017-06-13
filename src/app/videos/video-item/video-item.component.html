@@ -4,12 +4,14 @@
           <!-- the only thing that works to toggle visibility for the div is *ngIf (which actually removes the component) becaise
           [hidden] collides with the display property: https://stackoverflow.com/questions/35578083/what-is-the-equivalent-of-ngshow-and-nghide-in-angular2
           For the iFrame instead, [hidden] works but *ngIf doesn't -->
-          <div class="video-item-image" (click)="onImageClicked()" *ngIf="item.showThumbnail">
+          <div class="video-item-frame" (click)="onImageClicked()" *ngIf="item.showThumbnail">
             <img src="{{item.videoImage}}" height="100%" style="z-index:0">
           </div>
-          <div class="video-item-iframe" *ngIf="!item.showThumbnail">
+          <div class="video-item-frame" *ngIf="!item.showThumbnail">
             <iframe [hidden]="item.showThumbnail" width="100%" height="100%" [src]="item.videoUrl | safe"></iframe>
           </div>
           <p *ngFor="let line of item.videoDescription">{{line}}</p>
         </div>
+        <br/>
+        <div class="section-separator"></div>
     </div>

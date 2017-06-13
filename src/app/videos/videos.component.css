@@ -5,9 +5,7 @@
 
 
 
-.section-separator {
-    width: 100%;
-}
+
 
 /** cuando se estrecha demasiado la pantalla, sacar el padding para que quepa el iframe del video*/
 @media screen and (max-width: 400px) {
@@ -21,13 +19,6 @@
 
 }
 
-.video-title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    font-weight: 900;
-    margin-bottom: 1%;
-    text-align: center;
-}
 
 .play-button {
     background-image:url(/assets/red-play-button.png);
