@@ -2,91 +2,28 @@
   <div class="inner-header" style="order: 1">
     <h2><span class="celeste">Some Videos</span> Of My Classes</h2>
   </div>
-  <div style="order: 2; display: flex; flex-flow: column nowrap; justify-content:flex-start;flex: 1 0;">
-    <div class="video-title">La Sopa Loca (Crazy Soup)</div>
-    <div class="video-item">
-        <div class="video-item-image" data-videoid="0GPAuEJwDrY" #image0GPAuEJwDrY (click)="onImageClicked(image0GPAuEJwDrY)">
-            <img src="https://img.youtube.com/vi/0GPAuEJwDrY/hqdefault.jpg" height="100%" style="z-index:0">
-        </div>
-          This activity is designed in a way that every child can participate, according to his level of involvement.
-          <br/>Do you think any of these children would ever forget what "sopa" means?
-          <br/>They just absorbed lots of background information: utensils, imperative forms, size adjectives, food vocabulary, 
-          and, all along, the sound and inflection of the language.
-          <br/> This activity is conducted entirely in Spanish, which doesn't bother them in the least.
-    </div>
+  <div style="order: 2; display: flex; flex-flow: column nowrap; justify-content:flex-start; 
+    flex: 1 0; margin-left: 2%; margin-right: 2% ">
+    
+    <app-video-item [item]="videoItems[0]"></app-video-item>
     <br/>
     <div class="section-separator"></div>
     <br/>
-    <div class="video-title">Un Tallarín (A Noodle)</div>
-    <div class="video-item">
-        <div class="video-item-image" data-videoid="ZOeIvbPBPC8" #imageZOeIvbPBPC8 (click)="onImageClicked(imageZOeIvbPBPC8)">
-            <img src="https://img.youtube.com/vi/ZOeIvbPBPC8/hqdefault.jpg" height="100%">
-        </div>
-            What better way to remember numbers in Spanish, than eating some sticky, cold noodles?
-            <br/>The game: A random person (I start with myself) is chosen to hold a plate with tagliarini, and sing the song.
-            <br/>At the end of each stanza, the bearer chooses a "victim" who will have to eat the tagliarinis on the plate (or optionally pretend 
-              to). 
-            <br/>The song ends with ... "and they are eaten by:" plus the name of the next "victim". Not even the cameraman escapes this fate!
-            <br/>At each repetition, we add 1 to the count of tagliarini, all the way to 10.
-    </div>
-    <br/>
-    <div class="section-separator"></div>
-    <br/> 
-    <div class="video-title">Ricitos de Oro (Goldilocks)</div>  
-    <div class="video-item">
-        <div class="video-item-image" data-videoid="SAYf8Tog15U" #imageSAYf8Tog15U (click)="onImageClicked(imageSAYf8Tog15U)">
-            <img src="https://img.youtube.com/vi/SAYf8Tog15U/hqdefault.jpg" height="100%">
-        </div>
-            As we do at the beginning of each class, in this segment we review ways to exrpress how we feel ("bien", "mal"), and introduce a new mood: "enojado" (angry).
-            <br/>We follow by issuing some movement commands they already know: "correr" (run), "saltar" (jump), but with the addition of how fast we perform the action:
-               "lento" (slowly) or "rápido" (fast).
-            <br/>Finally, we commence with the story, introducing the characters.
-            <br/>Notice how, although the puppets are approximately the same size, the children already grasp the concept of "Papá Oso" being big ("grande"), but "Bebé Osito" being small ("pequeño"). 
-            They also know, intuitively, what size of soup plate corresponds to each one.
-        </div>
+    <app-video-item [item]="videoItems[1]"></app-video-item>
     <br/>
     <div class="section-separator"></div>
     <br/>
-    <div class="video-title">Commands (part I)</div>
-    <div class="video-item">
-        <div class="video-item-image" data-videoid="PsT82bLd8eE" #imagePsT82bLd8eE (click)="onImageClicked(imagePsT82bLd8eE)">
-            <img src="https://img.youtube.com/vi/PsT82bLd8eE/hqdefault.jpg" height="100%">
-        </div>        
-            The method I am employing in this class is called "Total Physical Response" or TPR, and it consists, precisely, in getting the students to understand a concept and react in a physical manner. In this way, we communicate, even before they are capable of articulated speech.
-            <br/>These 22-month olds first became comfortable with the general idea of following commands, using a "vuela, vuela" (fly, fly) playful introduction. 
-            <br/>The commands used in this first class were: "¡Toca la puerta!" (knock on the door!) and "Siéntate!" (sit down!).
-            <br/>I think the most rewarding moment of the class, is when one of the kids, who was hesitant about climbing the chair,  
-              decides to go at it after watching the other one.
-    </div>  
+    <app-video-item [item]="videoItems[2]"></app-video-item>    
     <br/>
     <div class="section-separator"></div>
     <br/>
-    <div class="video-title">Commands (part II)</div>
-    <div class="video-item">
-        <div class="video-item-image" data-videoid="T6dn3lpA4Gs" #imageT6dn3lpA4Gs (click)="onImageClicked(imageT6dn3lpA4Gs)">
-            <img src="https://img.youtube.com/vi/T6dn3lpA4Gs/hqdefault.jpg" height="100%">
-        </div>
-            On the second class we use again "¡siéntate!", and we add "¡bebe el agua!" (drink the water!).
-            <br/>We even get them to fetch water for their parents. They "sharing" happens exactly as it is expected at their developmental stage: 
-              22-month olds don't really "share", unless it is evident that there is enough reminder of the "stuff" in question.
-              So, when asked to take water to someone else, they take the water, walk over to the parent, drink themselves, double-check that there 
-              is water left, and only then hand over the cup.
-             <br/>They don't act like that because they hadn't understand the command, much the opposite!
-             <br/>When we run out of water, asked if they want more, the children answer "Sí." and "Sí, please". That moment alone is worth the whole class ...
-    </div> 
+    <app-video-item [item]="videoItems[3]"></app-video-item>        
     <br/>
     <div class="section-separator"></div>
-    <br/>   
-    <div class="video-title">Caperucita Roja (Little Red Riding Hood)</div>
-    <div class="video-item">
-        <div class="video-item-image" data-videoid="2nXdwtEW2bk" #image2nXdwtEW2bk (click)="onImageClicked(image2nXdwtEW2bk)">
-            <img src="https://img.youtube.com/vi/2nXdwtEW2bk/hqdefault.jpg" height="100%">
-        </div>
-             At the initial section where we describe moods, we introduced "tengo miedo" (I am scared) and movement verbs: "corre, camina" (run, walk), that later will link to the story.
-             <br/>When Caperucita picks flowers, we review the basic colors in a fluid, natural way.
-             <br/>A student volunteers to impersonate the wolf, who chases Caperucita, then chases Grandmother (who hides in the cupboard), 
-             And then he impersonates Grandmother.
-             <br/>At the climactic traditional exchange we introduce body parts: "qué ojos grandes, qué orejas grandes" (what big eyes, ears, etc). 
-             Most students, at first reluctanct to impersonate the wolf, ended up competing to volunteer!
-    </div>            
+    <br/>
+    <app-video-item [item]="videoItems[4]"></app-video-item>      
+    <br/>
+    <div class="section-separator"></div>
+    <br/>
+    <app-video-item [item]="videoItems[5]"></app-video-item>          
 </div>
