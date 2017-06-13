@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./video-item.component.css']
 })
 export class VideoItemComponent implements OnInit {
-  @Input() item: {videoImage :string, videoDescription :string[], videoUrl :string, showThumbnail :boolean};
+  @Input() item: {videoTitle :string, videoImage :string, videoDescription :string[], videoUrl :string, showThumbnail :boolean};
 
   constructor() {}
 
