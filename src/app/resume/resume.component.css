@@ -1,4 +1,4 @@
-/deep/ .h2 {
+.h2 {
     font-size: 2.3vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -31,6 +31,18 @@
         padding-right: 0;
         width: 100%;
     }
+}
+
+.attribution {
+    font-style: italic;
+    color: #929292;
+}
+
+h3 {
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #000062;
 }
 
 
