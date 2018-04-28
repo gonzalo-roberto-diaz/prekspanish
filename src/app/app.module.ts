@@ -18,6 +18,7 @@ import { OurLevelsComponent } from './home/our-levels/our-levels.component';
 import { MakeHappenComponent } from './home/make-happen/make-happen.component';
 import { TeachingTechniquesComponent } from './articles/teaching-techniques/teaching-techniques.component';
 import { CommonQuestionsComponent } from './articles/common-questions/common-questions.component';
+import { BrainBenefitsComponent } from './articles/brain-benefits/brain-benefits.component';
 import { SchoolExperiencesComponent } from './articles/school-experiences/school-experiences.component';
 import { VideoItemComponent } from './videos/video-item/video-item.component';
 
@@ -62,6 +63,7 @@ export class SafePipe implements PipeTransform {
     MakeHappenComponent,
     TeachingTechniquesComponent,
     CommonQuestionsComponent,
+    BrainBenefitsComponent,
     SchoolExperiencesComponent,
     VideoItemComponent,
     SafePipe

@@ -60,7 +60,18 @@ export class VideosComponent implements OnInit {
                            'At the climactic traditional exchange we introduce body parts: "qué ojos grandes, qué orejas grandes" (what big eyes, ears, etc). Most students, at first reluctanct to impersonate the wolf, ended up competing to volunteer!'],
       videoUrl: "https://www.youtube.com/embed/2nXdwtEW2bk",
       showThumbnail : true
-    }  
+    },
+    { videoTitle: "¡Trae! (bring!)",
+      videoImage : "https://img.youtube.com/vi/lnxitEucG9k/hqdefault.jpg",
+      videoDescription:  [ 'The 4-year-olds in this activity are already familiar with vocabulary for common food items, because it had been presented to them by the story of Caperucita (Little Red Riding Hood), during which we had reviewed "what items Caperucita was carrying in her basket".',
+                           'We practice naming those food items by creating a simple game situation: the items are placed in a basket, and the parents, in the opposite end of the room, ask their respective children to bring one particular item at a time. This keeps parents involved, too! ',
+                           'The children also answer naturally to questions like: ¿Qué es? (What is it?) ¿Qué tenemos en la canasta? (What do we have in the basket?) ',
+                           'The main command used here by the parents, is "Trae" (bring!). My only intervention is to hurry them on (¡Rápido, rápido!¡Corre!), to occasionally prod a shy student on, and, since they are so excited, to insist on them just taking one item at a time.',
+                           'At the end of each round, I ask them to count how many items each brought, and they surprise me once again, counting up to numbers that I havent taught them!',
+                           'This is a simple and useful activity that serves the purpose of fixing vocabulary, and that can be easily replayed at home.'],
+      videoUrl: "https://www.youtube.com/embed/lnxitEucG9k",
+      showThumbnail : true
+    }     
   ]
 
   constructor() {}
