@@ -20,6 +20,7 @@ import { TeachingTechniquesComponent } from './articles/teaching-techniques/teac
 import { CommonQuestionsComponent } from './articles/common-questions/common-questions.component';
 import { BrainBenefitsComponent } from './articles/brain-benefits/brain-benefits.component';
 import { SchoolExperiencesComponent } from './articles/school-experiences/school-experiences.component';
+import { FindLearningProgram } from './articles/find-learning-program/find-learning-program.component';
 import { VideoItemComponent } from './videos/video-item/video-item.component';
 
 
@@ -38,6 +39,7 @@ const appRoutes: Routes = [
   { path: 'articles/teaching-techniques', component: TeachingTechniquesComponent },
   { path: 'articles/common-questions', component: CommonQuestionsComponent },
   { path: 'articles/high-school-experiences', component: SchoolExperiencesComponent },
+  { path: 'articles/find-learning-program', component: FindLearningProgram },
 ];
 
 @Pipe({ name: 'safe' })
@@ -65,6 +67,7 @@ export class SafePipe implements PipeTransform {
     CommonQuestionsComponent,
     BrainBenefitsComponent,
     SchoolExperiencesComponent,
+    FindLearningProgram,
     VideoItemComponent,
     SafePipe
   ],
