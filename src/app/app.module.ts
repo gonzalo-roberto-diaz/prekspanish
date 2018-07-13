@@ -16,20 +16,23 @@ import { WelcomeComponent } from './home/welcome/welcome.component';
 import { AboutMeComponent } from './home/about-me/about-me.component';
 import { OurLevelsComponent } from './home/our-levels/our-levels.component';
 import { MakeHappenComponent } from './home/make-happen/make-happen.component';
-import { TeachingTechniquesComponent } from './articles/teaching-techniques/teaching-techniques.component';
-import { CommonQuestionsComponent } from './articles/common-questions/common-questions.component';
-import { BrainBenefitsComponent } from './articles/brain-benefits/brain-benefits.component';
-import { SchoolExperiencesComponent } from './articles/school-experiences/school-experiences.component';
 import { FindLearningProgram } from './articles/find-learning-program/find-learning-program.component';
 import { VideoItemComponent } from './videos/video-item/video-item.component';
-
-
 import {AnalyticsService} from "./services/analytics.service";
 
 //to construct the "safe" directive, which will allow me to pass Youtube URL's  to the iframes
 //https://stackoverflow.com/questions/38037760/how-to-set-iframe-src-in-angular-2-without-causing-unsafe-value-exception/38037914#38037914
 import { Pipe, PipeTransform } from '@angular/core';
 import {DomSanitizer} from "@angular/platform-browser";
+
+
+//articles
+import { KeepInMindComponent } from './articles/keep-in-mind/keep-in-mind.component';
+import { SchoolExperiencesComponent } from './articles/school-experiences/school-experiences.component';
+import { BrainBenefitsComponent } from './articles/brain-benefits/brain-benefits.component';
+import { TeachingTechniquesComponent } from './articles/teaching-techniques/teaching-techniques.component';
+import { CommonQuestionsComponent } from './articles/common-questions/common-questions.component';
+
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -40,6 +43,7 @@ const appRoutes: Routes = [
   { path: 'articles/common-questions', component: CommonQuestionsComponent },
   { path: 'articles/high-school-experiences', component: SchoolExperiencesComponent },
   { path: 'articles/find-learning-program', component: FindLearningProgram },
+  { path: 'articles/keep-in-mind', component: KeepInMindComponent },
 ];
 
 @Pipe({ name: 'safe' })
@@ -69,7 +73,8 @@ export class SafePipe implements PipeTransform {
     SchoolExperiencesComponent,
     FindLearningProgram,
     VideoItemComponent,
-    SafePipe
+    SafePipe,
+    KeepInMindComponent
   ],
   imports: [
     BrowserModule,
